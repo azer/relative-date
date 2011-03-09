@@ -27,5 +27,4 @@ On a CommonJS compliant environment:
 
 Testing
 =======
-node test/node.js
-test/browser.html
+node test/node.js || test/browser.html
