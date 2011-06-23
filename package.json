@@ -18,12 +18,6 @@
   "engines": {
     "node": "*"
   },
-  "modules": {
-    "observer.js": "lib/relative-date.js"
-  },
-  "files": [
-    ""
-  ],
   "homepage": "http://github.com/azer/relative-date",
   "repository": { "type":"git",  "url" : "http://github.com/azer/relative-date.git" },
   "scripts": {
