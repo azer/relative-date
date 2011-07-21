@@ -1,6 +1,6 @@
 {
   "name": "relative-date",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Javascript module for outputting relative dates.",
   "author": "Azer Koculu <azer@kodfabrik.com> (http://azer.kodfabrik.com)",
   "keywords": [
