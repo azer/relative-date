@@ -1,6 +1,6 @@
 {
   "name": "relative-date",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Javascript module for outputting relative dates.",
   "author": "Azer Koculu <azer@kodfabrik.com> (http://azer.kodfabrik.com)",
   "keywords": [
@@ -15,9 +15,6 @@
     "lib": "./lib"
   },
   "main": "./lib/relative-date",
-  "engines": {
-    "node": "*"
-  },
   "homepage": "http://github.com/azer/relative-date",
   "repository": { "type":"git",  "url" : "http://github.com/azer/relative-date.git" },
   "scripts": {
