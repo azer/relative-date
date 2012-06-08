@@ -19,5 +19,10 @@
   "repository": { "type":"git",  "url" : "http://github.com/azer/relative-date.git" },
   "scripts": {
     "test": "node test/node.js"
+  },
+  "component": {
+    "scripts": {
+      "relative-date": "./lib/relative-date"
+    }
   }
 }
