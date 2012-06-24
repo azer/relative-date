@@ -1,5 +1,5 @@
 var test = require('./test'),
-    puts = require('sys').puts,
+    puts = require('util').puts,
     startTS = (new Date).getTime();
 
 test();
