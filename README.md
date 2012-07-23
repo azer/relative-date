@@ -7,16 +7,19 @@ npm install relative-date
 Usage
 =====
 On browsers:
-    
+
+```js
     <script src="relative-date.js"></script>
     <script>
       assert( relativeDate(new Date()), 'just now' );
       assert( relativeDate(1299627946000), '12 minutes ago');
       assert( relativeDate(0), '41 years ago');
     </script>
+```
 
 On a CommonJS compliant environment:
 
+```js
     > var relativeDate = require('relative-date');
     > relativeDate(new Date())
     'just now'
@@ -24,7 +27,8 @@ On a CommonJS compliant environment:
     '12 minutes ago'
     > relativeDate(0)
     '41 years ago'
-
+```
+    
 Testing
 =======
 node test/node.js || test/browser.html
